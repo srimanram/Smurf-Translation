@@ -32,7 +32,7 @@ nav{
     background-color:#1F2937;
     font-size: 20px;
     color: white;
-    border: 1px solid white;
+    border: 1px solid none;
     
 }
 .output {
