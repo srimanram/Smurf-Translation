@@ -1,11 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+
 body {
-    background-color: #eeeeee;
+    background-image: url(https://media.istockphoto.com/photos/cement-floor-and-black-wall-backgrounds-empty-room-interior-use-for-picture-id1226232663?b=1&k=6&m=1226232663&s=170667a&w=0&h=6yI5gQBaTS8K75aPJzyfCLI1MFu-__M4BU2zAe5LxPw=);
+    background-repeat: no-repeat;
+    font-family:  'Otomanopee One', sans-serif;
+    font-size: medium;
+    width: 100%;
+    background-size: cover;
 }
 nav{
     background-color: black;
     color: white;
     text-align: center;
-    padding: 3rem;
+    padding: 2rem;
     font-size: xx-large;
 }
 .main {
@@ -19,16 +26,27 @@ nav{
 }
 .input {
     width: 100%;
-    height: 15rem;
-    /* font-size: ; */
+    height: 10rem;
 }
 .processing {
-    background-color:#fafafa;
-    font-size: 24px;
+    background-color:#1F2937;
+    font-size: 20px;
+    color: white;
+    border: 1px solid white;
+    
 }
 .output {
     border: 1px solid;
     width: 100%;
     height: 10rem;
     background-color: white;
+}
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.para{
+    text-align: center;
 }
